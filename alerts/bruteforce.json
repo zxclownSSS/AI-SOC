@@ -1,0 +1,11 @@
+{
+  "rule": {
+    "level": 10,
+    "description": "Multiple SSH authentication failures"
+  },
+  "agent": {
+    "name": "ubuntu-server"
+  },
+  "srcip": "192.168.1.50",
+  "full_log": "Failed password for root from 192.168.1.50 port 22 ssh2"
+}
