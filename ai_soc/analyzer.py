@@ -1,10 +1,10 @@
 import ollama
 import json
 
-from prompts import SYSTEM_PROMPT
-from security_rules import calculate_severity
-from recommendation_rules import get_recommendations
-from incident_mapper import normalize_incident_type
+from ai_soc.prompts import SYSTEM_PROMPT
+from ai_soc.security_rules import calculate_severity
+from ai_soc.recommendation_rules import get_recommendations
+from ai_soc.incident_mapper import normalize_incident_type
 
 def analyze_alert(alert_data):
 

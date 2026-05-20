@@ -1,7 +1,7 @@
 import json
 
-from analyzer import analyze_alert
-from incident_renderer import render_incident
+from ai_soc.analyzer import analyze_alert
+from ai_soc.incident_renderer import render_incident
 
 with open("alerts/bruteforce.json", "r") as f:
     alert = json.load(f)
